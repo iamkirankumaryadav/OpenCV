@@ -14,10 +14,7 @@ pip install cv2
 - **Extract Infromation** from Image | **Enhance** the Image
 - Computers Visualize Images as a **Matrix**.
 - Each Element in Matrix is a **Pixel**.
-- Each Pixel in Color have Color Information composed of `3 Channels` **R G and B** containing Numbers from 0 to 255  
-- `Red` : [255, 0, 0]
-- `Green` : [0, 255, 0]
-- `Blue` : [0, 0, 255]
+- Each Pixel in Color have Color Information composed of `3 Channels` **B G and R** containing Numbers from 0 to 255  
 - Each Pixel of Matrix represents the **Intensity** of an Image
 - Each Channel need **8 Bits** for Storage therefor it become **24 Bits** for each Pixel.
 
