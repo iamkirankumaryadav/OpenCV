@@ -40,11 +40,11 @@ pip install cv2
 - Black and White will be **Dense** and shall render **Better Quality**.
 
 ### Applications 
-1. Self Driving Cars ( Detect Objects and Humans infront of Car, Reverse Parking )
-2. Facial Recognition ( Attendance, FB Friend Recognition )
+1. Self Driving Cars (Detect Objects and Humans infront of Car, Reverse Parking)
+2. Facial Recognition (Attendance, FB Friend Recognition)
 3. Augmented Reality and Virtual Reality
-4. Health Care ( X Ray and MRI Scan )
-5. Video Motion Analysis ( Detect Face, Object in Video )
-6. Image Segmentation ( Camera Detects the Multiple Faces in a Group Selfie )
-7. Scene Reconstruction ( 3D Model Creation in Architecture )
-8. Image Restoration ( Filtering Blur Images and Removing Noise )
+4. Health Care (X Ray and MRI Scan)
+5. Video Motion Analysis (Detect Face, Object in Video)
+6. Image Segmentation (Camera Detects the Multiple Faces in a Group Selfie)
+7. Scene Reconstruction (3D Model Creation in Architecture)
+8. Image Restoration (Filtering Blur Images and Removing Noise)
