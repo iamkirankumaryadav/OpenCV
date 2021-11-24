@@ -4,6 +4,10 @@
 pip install cv2
 ```
 
+- An open source computer vision and machine learning `library`.
+- Contains over 2,500 optimized algorithms.
+- Algorithms for Facial recognition, Object identification, Human action, Track movements,etc.
+
 - Computers gain high level understanding from digital `image` and `video`
 - Understand and automate the task of `human visual system`
 - `Detecting` and `labelling` image or object has surpassed humans.
@@ -47,3 +51,5 @@ Color | `24` | `3`
 6. Image `segmentation` : Camera detects the multiple faces in a group selfie.
 7. Scene `reconstruction` : 3D model creation in architecture, room interior.
 8. Image `restoration` : Filtering blur images and removing noise.
+
+`DNN` is openCV's deep learning module.
