@@ -23,7 +23,7 @@ pip install cv2
 ### Storage Requirements
 
 Image Type | Storage (Bits Per Pixel) | Channel
-:--- | :--- | :---
+:--- | :---: | :---:
 Binary | `1` | 
 B/W | `8` | `1`
 Grayscale | `8` | `1`
