@@ -14,12 +14,24 @@ import cv2
 - High amount of visual data i.e images and videos with high processing capabilities.
 
 ```
+OpenCV and NumPy
+```
+- `OpenCV` code is orignally written in `C++`
+- When we use OpenCV in Python, Python act as `wrapper` around C++ Code. 
+- All the `OpenCV array` structures are converted to and from `NumPy arrays`
+- NumPy arrays are powerful `N dimensional` array objects.
+- NumPy have sophisticated `broadcasting` functions.
+- It makes processing for images faster.
+- Every NumPy array is a grid of elements of the same type.
+
+```
 Image Processing
 ```
 - `Extracting` infromation from image and `enhancing` the image quality.
 - Computers visualize images as a `matrix`
 - Each element in matrix is a `pixel`
-- Each pixel have color information composed of `3 channels` (R G B) containing numbers from `0` to `255`
+- OpenCV uses `BGR` format instead of `RGB`
+- Each pixel have color information composed of `3 channels` (B G R) containing numbers from `0` to `255`
 - Each pixel of `matrix` represents the **intensity** of an color.
 - Each channel need `8 bits` for storage therefore it become `24 bits` for each pixel.
 
