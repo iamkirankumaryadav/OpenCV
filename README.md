@@ -4,33 +4,33 @@
 pip install cv2
 ```
 
-- Computers Gain High Level Understanding from Digital Images or Videos.
-- Understand and Automate the Task of Human Visual System.
-- Detecting and Image | Object Labeling has Surpassed Humans.
-- Faster than Human Reaction and 99% Accuracy
-- High Amount of Visual Data (Images and Videos) with Processing Capabilities.
+- Computers gain high level understanding from digital `image` and `video`
+- Understand and automate the task of `human visual system`
+- `Detecting` and `labelling` image or object has surpassed humans.
+- `Faster` than human reaction and `99% Accuracy`
+- High amount of visual data i.e images and videos with high processing capabilities.
 
 ### Image Processing
-- **Extract Infromation** from Image | **Enhance** the Image
-- Computers Visualize Images as a **Matrix**.
-- Each Element in Matrix is a **Pixel**.
-- Each Pixel in Color have Color Information composed of `3 Channels` **B G and R** containing Numbers from 0 to 255  
-- Each Pixel of Matrix represents the **Intensity** of an Image
-- Each Channel need **8 Bits** for Storage therefor it become **24 Bits** for each Pixel.
+- `Extracting` infromation from image and `enhancing` the image quality.
+- Computers visualize images as a `matrix`
+- Each element in matrix is a `pixel`
+- Each pixel have color information composed of `3 channels` (R G B) containing numbers from `0` to `255`
+- Each pixel of `matrix` represents the **intensity** of an color.
+- Each channel need `8 bits` for storage therefore it become `24 bits` for each pixel.
 
-### Images are converted to and from **NumPy** Array
+### Images are converted to and from `NumPy Array`
 
 ### Storage Requirements
 
-1. Binary : `1 Bit` Per Pixel
-2. Black and White : `8 Bits` Per Pixel | `1 Channel`
-3. Grayscale : `8 Bits` Per Pixel | `1 Channel`
-4. Color : `24 Bits` Per Pixel | `3 Channels`
+1. Binary : `1 Bit` per pixel.
+2. Black and White : `8 Bits` per pixel | `1 Channel`
+3. Grayscale : `8 Bits` per pixel | `1 Channel`
+4. Color : `24 Bits` per pixel | `3 Channels`
 
 ### Pixel
-- Basic **Fundamental Unit** of Image 
-- Multiple Pixels arranged in **Rows** and **Columns** forms an **Image**
-- Binary, Black and White, Grayscale, RGB Color Image
+- Basic fundamental unit of an image. 
+- Multiple pixels arranged in `rows` and `columns` forms an image.
+- Binary, black and white, grayscale, RGB color image.
 
 > Black and White and Greyscale Images are **Different**
 - Black and White is only Composed with Black or White
