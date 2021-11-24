@@ -52,4 +52,4 @@ Color | `24` | `3`
 7. Scene `reconstruction` : 3D model creation in architecture, room interior.
 8. Image `restoration` : Filtering blur images and removing noise.
 
-`DNN` is openCV's deep learning module.
+`DNN` is OpenCV's deep learning module.
