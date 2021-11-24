@@ -27,24 +27,25 @@ pip install cv2
 3. Grayscale : `8 Bits` per pixel | `1 Channel`
 4. Color : `24 Bits` per pixel | `3 Channels`
 
-### Pixel
-- Basic fundamental unit of an image. 
+### `Pixel`
+- Basic fundamental `unit` of an image. 
 - Multiple pixels arranged in `rows` and `columns` forms an image.
 - Binary, black and white, grayscale, RGB color image.
 
-> Black and White and Greyscale Images are **Different**
-- Black and White is only Composed with Black or White
-- Grayscale is combination of Different Grades of Black and White.
+### `Black & White` and `Greyscale` images are `different`
+- `B/W` is only composed with either `black` or `white`
+- `Greyscale` is combination of different `shades` of black and white.
 
-- **Binary** need `1 Bit Per Pixel` for Storage and **Black** and **White** needs `8 Bits Per Pixel` for **Storage**.
-- Black and White will be **Dense** and shall render **Better Quality**.
+- `Binary` need `1 bit per pixel` for storage.
+- `B/W` needs `8 bits per pixel` for storage.
+- `B/W` will be `dense` and shall render better quality.
 
 ### Applications 
-1. Self Driving Cars (Detect Objects and Humans infront of Car, Reverse Parking)
-2. Facial Recognition (Attendance, FB Friend Recognition)
-3. Augmented Reality and Virtual Reality
-4. Health Care (X Ray and MRI Scan)
-5. Video Motion Analysis (Detect Face, Object in Video)
-6. Image Segmentation (Camera Detects the Multiple Faces in a Group Selfie)
-7. Scene Reconstruction (3D Model Creation in Architecture)
-8. Image Restoration (Filtering Blur Images and Removing Noise)
+1. `Autonomous` : Self driving cars (Detect objects and humans infront of car, reverse parking)
+2. Facial recognition (Attendance, FB friend recognition)
+3. `AR` : Augmented Reality and `VR` : Virtual Reality
+4. Health care (X Ray and MRI scan)
+5. Video motion analysis (Detect face, Object in video)
+6. Image `segmentation` (Camera detects the multiple faces in a group selfie)
+7. Scene `reconstruction` (3D model creation in architecture, room interior)
+8. Image `restoration` (Filtering blur images and removing noise)
