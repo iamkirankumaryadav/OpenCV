@@ -14,7 +14,9 @@ pip install cv2
 - `Faster` than human reaction and `99% Accuracy`
 - High amount of visual data i.e images and videos with high processing capabilities.
 
-### Image Processing
+```
+Image Processing
+```
 - `Extracting` infromation from image and `enhancing` the image quality.
 - Computers visualize images as a `matrix`
 - Each element in matrix is a `pixel`
