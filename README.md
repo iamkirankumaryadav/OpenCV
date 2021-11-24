@@ -55,6 +55,12 @@ B/W | `8` | `1`
 Grayscale | `8` | `1`
 Color | `24` | `3`
 
+Color | Channel
+:---: | :---:
+`B` | `0`
+`G` | `1`
+`R` | `2`
+
 ### `Pixel`
 - Basic fundamental `unit` of an image. 
 - Multiple pixels arranged in `rows` and `columns` forms an image.
