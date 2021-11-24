@@ -22,12 +22,12 @@ pip install cv2
 
 ### Storage Requirements
 
-Image Type | Storage | Channel
+Image Type | Storage (Bits Per Pixel) | Channel
 :--- | :--- | :---
-Binary | `1 Bit` per pixel | 
-Black and White | `8 Bits` per pixel | `1 Channel`
-Grayscale | `8 Bits` per pixel | `1 Channel`
-Color | `24 Bits` per pixel | `3 Channels`
+Binary | `1` | 
+Black and White | `8` | `1`
+Grayscale | `8` | `1`
+Color | `24` | `3`
 
 ### `Pixel`
 - Basic fundamental `unit` of an image. 
