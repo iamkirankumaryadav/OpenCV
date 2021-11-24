@@ -25,7 +25,7 @@ pip install cv2
 Image Type | Storage (Bits Per Pixel) | Channel
 :--- | :--- | :---
 Binary | `1` | 
-Black and White | `8` | `1`
+B/W | `8` | `1`
 Grayscale | `8` | `1`
 Color | `24` | `3`
 
