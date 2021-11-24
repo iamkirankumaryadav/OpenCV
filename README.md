@@ -3,11 +3,9 @@
 ```python
 pip install cv2
 ```
-
 - An open source computer vision and machine learning `library`.
 - Contains over 2,500 optimized algorithms.
 - Algorithms for Facial recognition, Object identification, Human action, Track movements,etc.
-
 - Computers gain high level understanding from digital `image` and `video`
 - Understand and automate the task of `human visual system`
 - `Detecting` and `labelling` image or object has surpassed humans.
@@ -44,7 +42,9 @@ Color | `24` | `3`
 - `B/W` is only composed with either `black` or `white`
 - `Greyscale` is combination of different `shades` of black and white.
 
-### Applications 
+```
+Applications 
+```
 1. `Autonomous` self driving cars : Detect objects and humans infront of car, reverse parking.
 2. Facial recognition : Attendance, FB friend recognition.
 3. `AR` : Augmented Reality and `VR` : Virtual Reality
