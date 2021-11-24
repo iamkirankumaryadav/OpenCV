@@ -22,10 +22,12 @@ pip install cv2
 
 ### Storage Requirements
 
-1. Binary : `1 Bit` per pixel.
-2. Black and White : `8 Bits` per pixel | `1 Channel`
-3. Grayscale : `8 Bits` per pixel | `1 Channel`
-4. Color : `24 Bits` per pixel | `3 Channels`
+Image Type | Storage | Channel
+:--- | :--- | :---
+Binary | `1 Bit` per pixel | 
+Black and White | `8 Bits` per pixel | `1 Channel`
+Grayscale | `8 Bits` per pixel | `1 Channel`
+Color | `24 Bits` per pixel | `3 Channels`
 
 ### `Pixel`
 - Basic fundamental `unit` of an image. 
@@ -36,16 +38,12 @@ pip install cv2
 - `B/W` is only composed with either `black` or `white`
 - `Greyscale` is combination of different `shades` of black and white.
 
-- `Binary` need `1 bit per pixel` for storage.
-- `B/W` needs `8 bits per pixel` for storage.
-- `B/W` will be `dense` and shall render better quality.
-
 ### Applications 
-1. `Autonomous` : Self driving cars (Detect objects and humans infront of car, reverse parking)
-2. Facial recognition (Attendance, FB friend recognition)
+1. `Autonomous` self driving cars : Detect objects and humans infront of car, reverse parking.
+2. Facial recognition : Attendance, FB friend recognition.
 3. `AR` : Augmented Reality and `VR` : Virtual Reality
-4. Health care (X Ray and MRI scan)
-5. Video motion analysis (Detect face, Object in video)
-6. Image `segmentation` (Camera detects the multiple faces in a group selfie)
-7. Scene `reconstruction` (3D model creation in architecture, room interior)
-8. Image `restoration` (Filtering blur images and removing noise)
+4. Health care : X Ray and MRI scan.
+5. Video motion analysis : Detect face, Object in video.
+6. Image `segmentation` : Camera detects the multiple faces in a group selfie.
+7. Scene `reconstruction` : 3D model creation in architecture, room interior.
+8. Image `restoration` : Filtering blur images and removing noise.
