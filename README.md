@@ -35,6 +35,15 @@ Image Processing
 - Each pixel of `matrix` represents the **intensity** of an color.
 - Each channel need `8 bits` for storage therefore it become `24 bits` for each pixel.
 
+```python
+print(Image.shape)
+
+(340, 540, 3)
+340 represents rows.
+540 represents columns.
+3 represents channels.
+```
+
 ### Images are converted to and from `NumPy Array`
 
 ### Storage Requirements
