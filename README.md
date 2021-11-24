@@ -1,7 +1,8 @@
 ### Open Computer Vision
 
 ```python
-pip install cv2
+pip install opencv-contrib-python
+import cv2
 ```
 - An open source computer vision and machine learning `library`.
 - Contains over 2,500 optimized algorithms.
