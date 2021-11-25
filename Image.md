@@ -15,3 +15,8 @@
 - `2` : Pixel Width | NumPy Column
 - `3` : 3 Color Channels (`R`, `G` and `B`) in OpenCV it's (`B`, `G` and `R`)
 
+### `HSL` and `HSV`
+- `HSL` : Hue, Saturation, Lightness.
+- `HSV` : Hue, Saturation, Value.
+- `HSL` and `HSV` are more closely aligned with the way human vision actually perceives color.
+
