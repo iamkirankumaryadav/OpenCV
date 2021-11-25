@@ -5,6 +5,8 @@
 - e.g Single digit image will be represented by `28` x `28` pixels.
 - Pixels are represented as a value between `0` and `1` (B/W and Greyscale)
 - Default images have values between `0` and `255`
+- `0` : No Color Value.
+- `255` : Full Color.
 - The range `0` to `255` has to do with how computers store `8 bit` numbers.
 - `Color` images can be represented as a combination of `Blue`, `Green` and `Red`
 - Each color channel will have `intensity` values between `0` and `255`
