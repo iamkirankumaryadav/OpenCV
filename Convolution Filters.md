@@ -2,6 +2,14 @@
 
 Used with images for `blurring`, `sharpening`, `embossing`, `edge detection` and more.
 
+Helps in extracting specific features from image.
+
+Images are fundamentally `matrices`, where each digit represents `intensity` of light in that position.
+
+`Grayscale` image is represented by `1` matrix describing the intensity of light.
+
+`Colorful` image is represented by combination of `3` matrices, each representing intensity of `R`, `G` and `B`
+
 ![Emboss - Deboss](Image/EmbossDeboss.jpg)
 
 `Kernels` are typically `3 x 3` matrices.
