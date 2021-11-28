@@ -2,5 +2,5 @@
 
 Used with images for `blurring`, `sharpening`, `embossing`, `edge detection` and more.
 
-![Emboss - Deboss](EmbossDeboss.jpg)
+![Emboss - Deboss](Image/EmbossDeboss.jpg)
 
