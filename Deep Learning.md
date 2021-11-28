@@ -1,6 +1,6 @@
 # Deep Learning
 
-`Tensors`are N dimensional array.
+`Tensors` are N dimensional array.
 
 `Scalar` | `Vector` | `Matrix` | `Tensors`
 :---: | :---: | :---: | :---:
