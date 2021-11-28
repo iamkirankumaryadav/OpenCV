@@ -1,11 +1,12 @@
 # Deep Learning
 
-`Tensors` are N dimensional array.
+### `Tensors` are N dimensional array.
 
 `Scalar` | `Vector` | `Matrix` | `Tensors`
 :---: | :---: | :---: | :---:
 `1` | `[1, 2, 3]` | `[[1, 2, 3],[4, 5, 6],[7, 8, 9]]` | `[[[1, 2],[3, 4]],[[5, 6],[7, 8]]]`
 
+### `I, H, W, C`
 Tensors make it very convenient to feed in sets of images into our model - `(I, H, W, C)`
 - `I` : Images
 - `H` : Height of images in pixels.
