@@ -13,3 +13,13 @@ Used with images for `blurring`, `sharpening`, `embossing`, `edge detection` and
 Depending on filter values (Kernel), convolution can have a variety of effects.
 
 ![Kernel](Image/Kernel.png)
+
+### `Sobel` Filters
+
+`Sobel` filters are best for detecting edges in an image (Especially for chessboard, bricks, etc)
+
+`Horizontal` kernel :
+![Horizontal Kernel](Image/HorizontalSobel.png)
+
+`Vertical` kernel :
+![Vertical Kernel](Image/VerticalSobel.png
