@@ -22,4 +22,4 @@ Depending on filter values (Kernel), convolution can have a variety of effects.
 ![Horizontal Kernel](Image/HorizontalSobel.png)
 
 `Vertical` kernel :
-![Vertical Kernel](Image/VerticalSobel.png
+![Vertical Kernel](Image/VerticalSobel.png)
