@@ -9,8 +9,10 @@
 ![Emboss - Deboss](Image/EmbossDeboss.jpg)
 
 - `Kernels` are typically `3 x 3` matrices.
-- `Kernels` move over an image from `top left` to `bottom right` and process for all the pixels in the image.
-- `Corner` edge pixels of image is also included by using `extending`, `wrapping`, `mirroring` and `cropping`
+- `Kernels` is overlapped with original image and slides (`stride`) from `top left` to `bottom right`.
+- `Strides` : Number of steps the kernel moves or slides over an image matrix.
+- Overlapping indices are `muliplied` and `added` to replace `center` value for each pixels in the image.
+- `Corner` edge pixels of image is also included by using `padding`, `extending`, `wrapping`, `mirroring` and `cropping`
 - Depending on filter values (Kernel), convolution can have a variety of effects.
 
 ![Kernel](Image/Kernel.png)
