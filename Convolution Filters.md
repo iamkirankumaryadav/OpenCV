@@ -11,6 +11,9 @@
 - `Kernels` are typically `3 x 3` matrices.
 - `Kernels` is overlapped with original image and slides (`stride`) from `top left` to `bottom right`.
 - `Strides` : Number of steps the kernel moves or slides over an image matrix.
+
+![Stride](Image/Stride.gif)
+
 - Overlapping indices are `muliplied` and `added` to replace `center` value for each pixels in the image.
 - `Corner` pixels of image is also included by using `padding`, `extending`, `wrapping`, `mirroring` and `cropping`
 - Depending on filter values (Kernel), convolution can have a variety of effects.
