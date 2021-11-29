@@ -30,6 +30,8 @@ cv2.dnn_superres()
 ```
 - Prefer creating a `virtual environment` and install `opencv-contrib-python` inside that to avoid dependency issues.
 
+The below step you will find in many articles and videos, It simply represents :
+To `mirror` the image you simply need to reverse either the `x` or `y` coordinates.
 ```python
 image[:, :, ::-1] (Reverse BGR to RGB and keep x and y as it is)
 ```
