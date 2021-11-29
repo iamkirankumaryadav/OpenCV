@@ -33,7 +33,7 @@ cv2.dnn_superres()
 The below step you will find in many articles and videos, It simply represents :
 - To `mirror` the image you simply need to reverse either the `x` or `y` coordinates.
 ```python
-Trick to reverse BGR to RGB and keep x and y as it is (One liner code)
+# Trick to reverse BGR to RGB and keep x and y as it is (One liner code)
 image[:, :, ::-1] 
 
 # You can also the method :
