@@ -38,9 +38,9 @@ Image Processing
 ```python
 print(Image.shape)
 
-(340, 540, 3)
-340 represents rows | height | y coordinate.
-540 represents columns | width | x coordinate.
+(340, 540, 3) : (height, width, channel)
+340 represents rows | height 
+540 represents columns | width
 3 represents channels.
 ```
 
