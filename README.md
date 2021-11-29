@@ -39,8 +39,8 @@ Image Processing
 print(Image.shape)
 
 (340, 540, 3)
-340 represents rows | height.
-540 represents columns | width.
+340 represents rows | height | y coordinate.
+540 represents columns | width | x coordinate.
 3 represents channels.
 ```
 
