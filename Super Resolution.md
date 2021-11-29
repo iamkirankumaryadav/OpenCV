@@ -25,6 +25,9 @@ Important `Parameter`
 1. `algo` : String containing one of desired models ( `'EDSR'`, `'ESPCN'`, `'FSRCNN'` or `'LapSRN'`  )
 2. `scale` : Integer specifying the `upscale factor`
 
+### `.pb` : `Protobuf`
+- The `protobuf` file contains the `graph` definition as well as the `weights` of the model.
+
 ```python
 # Install module
 !pip install opencv-contrib-python
