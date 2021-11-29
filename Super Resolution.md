@@ -1,6 +1,7 @@
 # `Super Resolution` in OpenCV
 
 - `Super resolution` refers to the process of `upscaling` or `improving` the details of the image.
+- A class to `upscale` images via `CNN : Convolutional Neural Network`
 - When increasing the `dimensions` of an image, extra pixels need to be `interpolated` (alter or insert something new)
 - Basic image processing do not give good results as they do not take the surrounding in context while scaling up.
 - `Deep learning` gives better result in terms of high resolution image.
@@ -19,6 +20,11 @@
 - While `LapSRN` offer `2x`, `4x` and `8x` times the original size.
 - `opencv-contrib-python` is important for Super Resolution.
 - Super Resolution is present inside the module `dnn_superres` Deep Neural Network based Super Resolution.
+
+Important `Parameter`
+1. `algo` : String containing one of desired models ( `'EDSR'`, `'ESPCN'`, `'FSRCNN'` or `'LapSRN'`  )
+2. `scale` : Integer specifying the `upscale factor`
+
 ```python
 # Install module
 !pip install opencv-contrib-python
