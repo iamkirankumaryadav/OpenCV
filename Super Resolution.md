@@ -29,3 +29,7 @@ import cv2
 cv2.dnn_superres()
 ```
 - Prefer creating a `virtual environment` and install `opencv-contrib-python` inside that to avoid dependency issues.
+
+```python
+image[:, :, ::-1] (Reverse BGR to RGB and keep x and y as it is)
+```
