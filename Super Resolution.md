@@ -20,7 +20,12 @@
 - `opencv-contrib-python` is important for Super Resolution.
 - Super Resolution is present inside the module `dnn_superres` Deep Neural Network based Super Resolution.
 ```python
+# Install module
 !pip install opencv-contrib-python
+
+# Import library
 import cv2
-cv2.dnn_superres
+
+cv2.dnn_superres()
 ```
+- Prefer creating a `virtual environment` and install `opencv-contrib-python` inside that to avoid dependency issues.
