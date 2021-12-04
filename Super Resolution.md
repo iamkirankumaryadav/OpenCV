@@ -35,15 +35,18 @@ Important `Parameter`
 # Import library
 import cv2
 
+# Create a super resolution object
 sr = cv2.dnn_superres.DnnSuperResIml_create()
 
 model_path = "EDSR_x4.pb"
 
+# Read the desired model
 sr.readModel(model_path)
 
 # Set the model by passing model_name and model_scale
 sr.setModel("edsr", 4)
 
+# Upsample image 
 upsampled_image = sr.upsample(image)
 
 # Resized image
