@@ -39,3 +39,32 @@ cv2.dnn_superres()
 ```
 - Prefer creating a `virtual environment` and install `opencv-contrib-python` inside that to avoid dependency issues.
 
+### `Application`
+
+1. `Medical Imaging`
+- Improving the quality of `X Rays`, `CT Scans`, etc.
+- Highlight important details about the anatomical and functional information of the human body.
+- Improving and enhancing medical images (helps in highlighting critical blockage or tumours)
+
+2. `Multimedia` 
+- Image and video processing applications, super resolution can convert hazy frames from a cell phone video into clearly readable image.
+
+3. `Biometric Identification`
+- Enhancement for face, fingerprint and iris images.
+- The shape, structure and texture are  greatly enhanced which helps in distinctly identifying a biometric print.
+
+4. `Remote Sensing`
+- Remote sensing and Satellite imaging has been developed for decades.
+- Infact the idea of super resolution was motivated by the need of better quality resolution of `landsat remote sensing` images.
+
+5. `Astronomical Imaging`
+- Improving the resolution of astronomical pictures help in focusing on tiny details that could turn out into discovery.
+
+6. `Surveillance Imaging`
+- Traffic surveillance and security system play a very important role in maintaining civilian safety.
+
+### `Conclusion`
+- `EDSR` comfortably gives the best result out of `4` methods, however it is slow and cannot be used for real time applications.
+- `ESPCN` and `FSRCNN` are go to methods if real time performance is desired and have almost identical performance.
+- `8x` upscaling model of `LapSRN` performs better in most situations.
+- Although none of these methods can match the traditional `bicubic` method `speed`, they certainly give better results.
