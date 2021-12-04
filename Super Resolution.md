@@ -35,7 +35,30 @@ Important `Parameter`
 # Import library
 import cv2
 
-cv2.dnn_superres()
+sr = cv2.dnn_superres.DnnSuperResIml_create()
+
+model_path = "EDSR_x4.pb"
+
+sr.readModel(model_path)
+
+sr.setModel("edsr", 4)
+
+upsampled_image = sr.upsample(image)
+
+# Resized image
+resized_image = cv2.resize(image, dsize=None, fx=4, fy=4)
+
+plt.figure(figsize=(12,8))
+
+# Original RGB image
+plt.subplot(1,3,1)
+plt.imshow(image[:,:,::-1])
+
+# Super resolution upscaled RGB image
+plt.imshow(upsampled_image[:,:,::-1])
+
+# OpenCV resized RGB image
+plt.imshow(resized_image[:,:,::-1])
 ```
 - Prefer creating a `virtual environment` and install `opencv-contrib-python` inside that to avoid dependency issues.
 
