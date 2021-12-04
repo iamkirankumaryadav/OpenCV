@@ -16,8 +16,8 @@
 3. `FSRCNN` : Accelerating the Super Resolution Convolutional Neural Network.
 4. `LapSRN` : Fast and Accurate Image Super Resolution with Deep Laplacian Pyramid Networks.
 
-- `EDSR`, `ESPCN` and `FSRCNN` offer an upscale ratio of `2x` `3x` and `4x` times.
-- While `LapSRN` offer `2x`, `4x` and `8x` times the original size.
+- `EDSR`, `ESPCN` and `FSRCNN` offer an upscale ratio of `2x` `3x` and `4x` 
+- While `LapSRN` offer `2x`, `4x` and `8x` the original size.
 - `opencv-contrib-python` is important for Super Resolution.
 - Super Resolution is present inside the module `dnn_superres` Deep Neural Network based Super Resolution.
 
