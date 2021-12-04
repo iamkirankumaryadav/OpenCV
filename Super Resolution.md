@@ -41,6 +41,7 @@ model_path = "EDSR_x4.pb"
 
 sr.readModel(model_path)
 
+# Set the model by passing model_name and model_scale
 sr.setModel("edsr", 4)
 
 upsampled_image = sr.upsample(image)
