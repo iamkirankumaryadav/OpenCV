@@ -1,4 +1,4 @@
-### Open Computer Vision
+### `Open Computer Vision`
 
 ```python
 !pip install opencv-contrib-python
