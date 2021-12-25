@@ -30,7 +30,7 @@ Image Processing
 - `Extracting` infromation from image and `enhancing` the image quality.
 - Computers visualize images as a `matrix`
 - Each element in matrix is a `pixel`
-- OpenCV uses `BGR` format instead of `RGB`
+- `OpenCV` reads the image in channel order `BGR` format but `Matplotlib` and other visualization tools read in `RGB` order.
 - Each pixel have color information composed of `3 channels` (B G R) containing numbers from `0` to `255`
 - Each pixel of `matrix` represents the **intensity** of an color.
 - Each channel need `8 bits` for storage therefore it become `24 bits` for each pixel.
