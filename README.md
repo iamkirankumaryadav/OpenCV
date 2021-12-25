@@ -34,7 +34,18 @@ Image Processing
 - Each pixel have color information composed of `3 channels` (B G R) containing numbers from `0` to `255`
 - Each pixel of `matrix` represents the **intensity** of an color.
 - Each channel need `8 bits` for storage therefore it become `24 bits` for each pixel.
-
+- Some images need to be converted to `Grayscale` or `Binary` before applying any image processing.
+- `Blending` : Overlaying images on top of each other by adjusting dimensions and opacity.
+- `Thresholding` : Segmenting or dividing images into different parts.
+- `Binary Thresholding` : Value below threshold will be shifted to `0` else `255`
+- `Bianry Inverse Thresholding` : Value below threshold will be shifted to `255` else `0`
+- `Truncation Thresholding` : Value below threshold will be shifted to `threshold value` else `remain same`
+- `Threshold To Zero` : Value below threshold will `0` else `remain same`
+- `Threshold To Zero Inverse` : Value below threshold will `remain same` else `0`
+- `Blurring` : Adding noise 
+- `Smoothing` : Removing noise to focus more on general details of the images.
+- `Edge Detection` : Detect edged in high resolution images without bluring.
+- `Gamma Correction` : Makes images `brighter` or `darker` based on choosen gamma value ( Lower gamma value : Brighter images )
 ```python
 print(Image.shape)
 
@@ -70,6 +81,11 @@ Color | Channel
 - `B/W` is only composed with either `black` or `white`
 - `Greyscale` is combination of different `shades` of black and white.
 
+### Image Formats
+
+- `HSV`
+- `HLS`
+
 ```
 Applications 
 ```
@@ -83,7 +99,6 @@ Applications
 8. Image `restoration` : Filtering blur images and removing noise.
 
 `DNN` is OpenCV's deep learning module.
-
 
 The below step you will find in many articles and videos, It simply represents :
 - To `mirror` the image you simply need to reverse either the `x` or `y` coordinates.
