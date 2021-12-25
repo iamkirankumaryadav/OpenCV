@@ -46,6 +46,15 @@ Image Processing
 - `Smoothing` : Removing noise to focus more on general details of the images.
 - `Edge Detection` : Detect edged in high resolution images without bluring.
 - `Gamma Correction` : Makes images `brighter` or `darker` based on choosen gamma value ( Lower gamma value : Brighter images )
+- `Kernels` are used for Blurring and Smoothing 
+
+### Morphological Operators
+
+- `Erosion` : Remove pixels on object `foreground` and `boundaries` (`Shrink` the boundaries)
+- `Dilation` : Add pixels to the boundaries of object in an image (`Enlarge` the boundaries)
+- `Opening` : Remove white noise from black background.
+- `Closing` : Remove black noise from white foreground.
+
 ```python
 print(Image.shape)
 
